@@ -748,11 +748,14 @@ body {
     margin-top: 10px;
     font-size: 1.2rem;
 }
- /* Estilos existentes... */
+
+
+/* Estilos existentes... */
 
 .space-below-button {
     height: 20px; /* Ajusta esta altura según lo que necesites */
 }
+
 
 /* desplazamiento de articulos////////////////////////////////////////////////////////  */
 
@@ -795,4 +798,43 @@ body {
 
 
 
-  
+  /* /////////////////////////////responsive */
+
+  .about__main2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about__icons2 {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.about__image2 {
+    width: 100%;
+    height: auto;
+}
+
+.about__title2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.about__description2 {
+    display: none;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: center;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    transition: opacity 0.3s;
+    text-align: center;
+}
