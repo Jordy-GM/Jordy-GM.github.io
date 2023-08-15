@@ -748,7 +748,11 @@ body {
     margin-top: 10px;
     font-size: 1.2rem;
 }
- 
+ /* Estilos existentes... */
+
+.space-below-button {
+    height: 20px; /* Ajusta esta altura según lo que necesites */
+}
 
 /* desplazamiento de articulos////////////////////////////////////////////////////////  */
 
